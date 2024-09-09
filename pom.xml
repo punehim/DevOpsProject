@@ -11,7 +11,7 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <failOnMissingWebXml>false</failOnMissingWebXml>
-        <vaadin.version>8.0.0.alpha2</vaadin.version>
+        <vaadin.version>8.26.0</vaadin.version>
         <vaadin.plugin.version>${vaadin.version}</vaadin.plugin.version>
     </properties>
 
@@ -78,7 +78,7 @@
         <dependency>
             <groupId>javax.servlet</groupId>
             <artifactId>javax.servlet-api</artifactId>
-            <version>3.0.1</version>
+            <version>3.1.0</version>
             <scope>compile</scope>
         </dependency>
         <!-- The huge set of awesome Java libraries are available as such 
@@ -95,7 +95,7 @@
 		<dependency>
 	<groupId>log4j</groupId>
 	<artifactId>log4j</artifactId>
-	<version>1.2.9</version>
+	<version>1.2.17</version>
 </dependency>
 		<dependency>
 			<groupId>org.slf4j</groupId>
@@ -105,12 +105,12 @@
 		<dependency>
 			<groupId>org.slf4j</groupId>
 			<artifactId>slf4j-simple</artifactId>
-			<version>1.7.7</version>
+			<version>1.7.36</version>
 		</dependency>
 		<dependency>
 			<groupId>org.slf4j</groupId>
 			<artifactId>slf4j-log4j12</artifactId>
-			<version>1.7.7</version>
+			<version>1.7.36</version>
 		</dependency>
 
 				<!-- TESTING -->
@@ -132,7 +132,7 @@
 		<dependency>
 			<groupId>org.apache.commons</groupId>
 			<artifactId>commons-lang3</artifactId>
-			<version>3.1</version>
+			<version>3.16.0</version>
 		</dependency>
 
 		<!-- JSON -->
@@ -144,7 +144,7 @@
 		<dependency>
 			<groupId>org.codehaus.jackson</groupId>
 			<artifactId>jackson-jaxrs</artifactId>
-			<version>1.9.4</version>
+			<version>1.9.13</version>
 		</dependency>
 
 		<!-- XML -->
